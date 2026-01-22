@@ -34,7 +34,7 @@ MAIL_RECEIVER = os.getenv("MAIL_RECEIVER") # Recipient email
 # You can also move these to .env or a config.yaml if you want more flexibility
 ANCHOR_FOLDER_NAME = "xin" 
 MONITOR_KEYWORDS = [
-    "photobiocatalysis"
+    "Perovskite solar cells"
 ]
 MIN_SCORE = 6        
 PUSH_LIMIT = 20      
