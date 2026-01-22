@@ -26,7 +26,8 @@ An automated research assistant that acts as a personalized literature filter. I
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/DeepSeek-Zotero-Research-Agent.git](https://github.com/YOUR_USERNAME/DeepSeek-Zotero-Research-Agent.git)
+   git clone [https://github.com/zhangqianxinchina-pixel/DeepSeek-Zotero-Research-Agent.git]
+   
    cd DeepSeek-Zotero-Research-Agent
    ```
 
@@ -57,7 +58,7 @@ An automated research assistant that acts as a personalized literature filter. I
 
 4. **Customize Logic (Optional)**
    Edit the configuration section in `main.py` to change:
-   - `MONITOR_KEYWORDS`: Your search topics (e.g., "photobiocatalysis").
+   - `MONITOR_KEYWORDS`: Your search topics (e.g., "Perovskite solar cells").
    - `ANCHOR_FOLDER_NAME`: The folder in Zotero containing your "Gold Standard" papers.
    - `MIN_SCORE`: Minimum AI score to trigger an email.
 
