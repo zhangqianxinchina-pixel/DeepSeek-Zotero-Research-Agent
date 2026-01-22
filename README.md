@@ -77,3 +77,30 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+📖 How to use this for your own research?
+You don't need to be a coder to use this!
+
+Fork this Repository: Click the Fork button at the top right corner. This creates your own copy.
+
+Customize Config:
+
+Open main.py in your forked repo.
+
+Edit MONITOR_KEYWORDS and ANCHOR_FOLDER_NAME to match your research topic.
+
+Commit changes.
+
+Add Secrets:
+
+Go to Settings -> Secrets and variables -> Actions.
+
+Add your own API keys (ZOTERO_ID, ZOTERO_KEY, DEEPSEEK_KEY, etc.) exactly as named in the code.
+
+Activate:
+
+Go to the Actions tab.
+
+Enable the workflow.
+
+It will now run automatically every Monday!
