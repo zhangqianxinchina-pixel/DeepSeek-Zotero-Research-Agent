@@ -46,7 +46,9 @@ jobs:
         
         if [ -f sent_history.json ]; then
           echo "✅ Found history file. Committing..."
-          git add sent_history.json
+          
+          git add -f sent_history.json
+          
           git commit -m "Update sent history [skip ci]" || echo "No changes to commit"
           git push
         else
