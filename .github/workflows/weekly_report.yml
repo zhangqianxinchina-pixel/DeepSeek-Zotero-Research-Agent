@@ -39,7 +39,7 @@ jobs:
         S2_API_KEY: ${{ secrets.S2_API_KEY }}
       run: python main.py
 
-      - name: Commit and Push History
+    - name: Commit and Push History
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
