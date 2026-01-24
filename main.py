@@ -50,7 +50,7 @@ MAIL_RECEIVER = os.getenv("MAIL_RECEIVER") # Recipient email address
 # IMPORTANT: This folder name must match exactly (case-insensitive) with your Zotero folder.
 ANCHOR_FOLDER_NAME = "xin" 
 MONITOR_KEYWORDS = [
-    "Perovskite solar cells"
+    "photo ATRP"
 ]
 MIN_SCORE = 6               # Minimum AI score (0-10) to include in the report
 PUSH_LIMIT = 20             # Maximum number of papers to send in one email
