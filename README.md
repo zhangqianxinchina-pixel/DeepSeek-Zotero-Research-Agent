@@ -1,6 +1,5 @@
 # 🧪 DeepSeek Zotero Research Agent
 
-![Build Status](https://github.com/zhangqianxinchina-pixel/DeepSeek-Zotero-Research-Agent/actions/workflows/weekly_report.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
 
@@ -51,7 +50,7 @@ ANCHOR_FOLDER_NAME = "Research_Focus"
 # Search Keywords
 MONITOR_KEYWORDS = [
     "Perovskite solar cells",
-    "Photobiocatalysis"
+    "Photo-catalysis"
 ]
 
 # Email Settings
@@ -131,10 +130,10 @@ Create a `.env` file in the root directory (use the format below):
 ```ini
 ZOTERO_API_KEY=your_key
 DEEPSEEK_API_KEY=your_key
-MAIL_HOST=smtp.qq.com
-MAIL_USER=xxx@qq.com
+MAIL_HOST=smtp.gmail.com
+MAIL_USER=xxx@gmail.com
 MAIL_PASS=xxx
-MAIL_RECEIVER=xxx@qq.com
+MAIL_RECEIVER=xxx@gmail.com
 
 ```
 
