@@ -52,3 +52,5 @@ jobs:
         else
           echo "⚠️ No history file found (No email sent today). Skipping commit."
         fi
+
+        
