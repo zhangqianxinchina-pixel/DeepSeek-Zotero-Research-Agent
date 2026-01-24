@@ -38,11 +38,17 @@ jobs:
         MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
         S2_API_KEY: ${{ secrets.S2_API_KEY }}
       run: python main.py
-      
-    - name: Commit and Push History
+
+      - name: Commit and Push History
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
-        git add sent_history.json
-        git commit -m "Update sent history [skip ci]" || echo "No changes to commit"
-        git push
+        
+        if [ -f sent_history.json ]; then
+          echo "✅ Found history file. Committing..."
+          git add sent_history.json
+          git commit -m "Update sent history [skip ci]" || echo "No changes to commit"
+          git push
+        else
+          echo "⚠️ No history file found (No email sent today). Skipping commit."
+        fi
